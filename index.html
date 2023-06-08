@@ -1,7 +1,10 @@
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<link rel="stylesheet" href="mystyle.css">
 
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+ 
 <!DOCTYPE html>
 <title>My Page</title>
 
@@ -15,8 +18,10 @@
   }
 </style>
 
+<body>
 <button id="button" aria-describedby="tooltip">I'm a button</button>
 <div id="tooltip" role="tooltip">I'm a tooltip</div>
+</body>
 
 <script>
   const button = document.querySelector('#button');
