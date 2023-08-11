@@ -2,7 +2,8 @@ var textArray = [
 'I like green',
 'That one guy that does stuff',
 'lua > python',
-'just wait for some vegetable to say raknet'
+'just wait for some vegetable to say raknet',
+'omg look funny minecraft font'
 ];
 var randomIndex = Math.floor(Math.random() * textArray.length); 
 var randomElement = textArray[randomIndex];
