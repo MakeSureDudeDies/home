@@ -14,6 +14,11 @@
   src: url("https://makesuredudedies.github.io/home/GothamBold.ttf") format('truetype'), url('https://makesuredudedies.github.io/home/GothamBold.otf') format('opentype');
 }
 
+@font-face {
+  font-family: GothamBook;
+  src: url('https://makesuredudedies.github.io/home/GothamBook.otf') format('opentype');
+}
+
 body {
  background-color:#1d1c1c;
 }
@@ -25,13 +30,7 @@ h1 {
 }
 
 p {
- font-family: GothamBold;
- color: #FFFFFF;
- text-align: center;
-}
- 
-.small_p_text {
- font-family: GothamBold;
+ font-family: GothamBook;
  color: #FFFFFF;
  text-align: center;
 }
@@ -39,7 +38,7 @@ p {
 .buybutton , .featuresbutton , .discordbutton {
   display:inline-block;
   background-color: #151414;
-  font-family: GothamBold;
+  font-family: GothamBook;
   border: none;
   color: #FFFFFF;
   border-radius: 8px;
@@ -57,7 +56,8 @@ p {
 }
 
 .footer{ 
-   position: fixed;     
+   position: fixed; 
+   font-family: GothamBook;
    text-align: center;    
    bottom: 0px; 
    width: 100%;
